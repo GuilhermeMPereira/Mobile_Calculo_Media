@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lousa"
+    android:orientation="vertical"
+    tools:context=".Calculadora">
+
+    <!-- LinearLayout agora dentro de ScrollView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculadora"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:layout_marginTop="110dp"
+            android:textStyle="bold"
+            android:textColor="#edede9"/>
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="405dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:hint="Digite a 1ª Nota"
+            android:textColor="#edede9"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="405dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:hint="Digite a 2ª Nota"
+            android:textColor="#edede9"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal3"
+            android:layout_width="405dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:hint="Digite a 3ª Nota"
+            android:textColor="#edede9"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal4"
+            android:layout_width="405dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:hint="Digite a 4ª Nota"
+            android:textColor="#edede9"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#582f0e"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:gravity="center"
+            android:text="Calcular" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#656d4a"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:gravity="center"
+            android:text="Voltar"
+            />
+
+        <TextView
+            android:id="@+id/nota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="#7f4f24"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#7f4f24"/>
+
+    </LinearLayout>
+</ScrollView>

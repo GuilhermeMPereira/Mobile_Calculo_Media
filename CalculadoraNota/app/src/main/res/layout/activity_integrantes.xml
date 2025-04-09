@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefae0"
+    android:orientation="vertical"
+    tools:context=".Integrantes">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circularImage"
+        android:layout_width="150dp"
+        app:civ_border_color="#283618"
+        android:layout_height="150dp"
+        app:civ_circle_background_color="#283618"
+
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/gui" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Guilherme Pereira Martins"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="RA: 2401854"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#283618"
+        android:gravity="center"
+        android:text="Integrantes" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#283618"
+        android:gravity="center"
+        android:text="Voltar" />
+
+
+
+
+</LinearLayout>
